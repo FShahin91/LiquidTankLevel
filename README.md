@@ -24,6 +24,8 @@ Ultrasonics of type HC-SR04 are used in the project due to their cheap price and
 The brains of this project is a PIC16F877A MCU from microchip. This 8-bit MCU was chosen due to its cheap price, wide availabilty, nuemrous pins to work with, and it has enough resources for a project of this scale. Coding is done in C using MPLAB X IDE v5.50 and XC8 compiler v2.32, both from microchip. All the coding is done from scratch except for the LCD screen which was taken from [Trion Projects' LCD library](https://trionprojects.org/lcd-library-for-8-bit-pic-microcontrollers/) and modified to suite the project.
 
 ## Structure of the project
+* The [DatasheetLinks](DatasheetLinks.md) which includes links to all used devices datasheets.
 * The [include](include/) directory includes all the used header files in the project. Each header file has a short description of its function.
-* The [source](source/) directory includes all the used C code files in the project. Each function in the source files is documented to give as much details as possible on how the function works. There are numerous comments that describe what the code is doing to give the user/reader the best possible understanding of how the code works.
+* The [source](source/) directory includes all the used C code files in the project. Each function in the source files is documented to give as many details as possible on how the function works. There are numerous comments that describe what the code is doing to give the user/reader the best possible understanding of how the code works.
 * The [LICENSE](LICENSE) file has full details of the permissions for this project. The project is licensed under GNU GPL v3.0.
+* This README file.
