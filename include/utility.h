@@ -1,6 +1,6 @@
 /* 
  * File:   utility.h
- * Author: FShahin91
+ * Author: Faris Shahin
  * Comments:
  * This header file and the associated C file includes all functions which will
  * be used multiple times throughout the program.
