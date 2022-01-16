@@ -2,7 +2,7 @@
 A system that measures the amount of liquid from multiple liquid tanks.
 
 ## Introduction
-This is a hobby project made to help in determining the amount of liquid available in a liquid tank in an easy and accurate way.
+This is a hobby project made to help in determining the amount of liquid available in multiple liquid tanks in an easy and accurate way.
 ### Reasons for making this project
 In the family's home, there are 4 diesel tanks which are located behind a rather heavy and rusty garage door which requires 2 persons to open. In addition, the method used to determine how much diesel is left in these tanks is one of these two methods:
  1. By looking inside the tanks.
