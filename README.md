@@ -1,5 +1,5 @@
 # LiquidTankLevel
-A project that measures the amount of liquid in a liquid tank.
+A system that measures the amount of liquid from multiple liquid tanks.
 
 ## Introduction
 This is a hobby project made to help in determining the amount of liquid available in a liquid tank in an easy and accurate way.
