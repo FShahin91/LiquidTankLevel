@@ -15,7 +15,7 @@ So the main purpose of this project is to simply:
 I must mention that there is still a need to struggle with the door in order to open/close the valves when refilling the tanks. But doing it once is better than twice!
 
 ## Technical details
-There are 4 tanks which the system will take readings from. Developing a system that reads from one tank only then making 4 of this system will not be financially feasable. The project was made to work with up to 4 tanks with the ability to work with more by making the necessary changes in the code and hardware. The tanks are all cuboid shapes, so the system stores the length, width and height alog with the user name for each tank seperately.
+There are 4 tanks which the system will take readings from. Developing a system that reads from one tank only then making 4 of this system will not be financially feasable. The project was made to work with up to 4 tanks with the ability to work with more by making the necessary changes in the code and hardware. The tanks are all cuboid shapes, so the system stores the length, width and height along with the user name for each tank seperately.
 
 Because the system will take readings from 4 tanks, a 4x16 LCD screen was used. This size was large enough to show all the readings at once and also to include readable instructions for the users when adding or removing an entry to or from the system. The amount of diesel in the tanks is presented in liters and also as a percentage of the total volume of the tanks. The percentage seem to be a more user-friendly method to indicate the amount compared to pure numbers.
 
@@ -24,8 +24,9 @@ Ultrasonics of type HC-SR04 are used in the project due to their cheap price and
 The brains of this project is a PIC16F877A MCU from microchip. This 8-bit MCU was chosen due to its cheap price, wide availabilty, nuemrous pins to work with, and it has enough resources for a project of this scale. Coding is done in C using MPLAB X IDE v5.50 and XC8 compiler v2.32, both from microchip. All the coding is done from scratch except for the LCD screen which was taken from [Trion Projects' LCD library](https://trionprojects.org/lcd-library-for-8-bit-pic-microcontrollers/) and modified to suite the project.
 
 ## Structure of the project
-* The [DatasheetLinks](DatasheetLinks.md) which includes links to all used devices datasheets.
 * The [include](include/) directory includes all the used header files in the project. Each header file has a short description of its function.
+* The [schematic](schematic/) directory includes the schematic for the system which was made using Fritzing. The TankLevel.fzz file includes the design on breadboard, the schematic and the PCB design.
 * The [source](source/) directory includes all the used C code files in the project. Each function in the source files is documented to give as many details as possible on how the function works. There are numerous comments that describe what the code is doing to give the user/reader the best possible understanding of how the code works.
+* The [DatasheetLinks](DatasheetLinks.md) which includes links to all used devices datasheets.
 * The [LICENSE](LICENSE) file has full details of the permissions for this project. The project is licensed under GNU GPL v3.0.
 * This README file.
