@@ -16,7 +16,7 @@ volatile uint8_t * IN_KEYS = &PORTC;
 volatile uint8_t * OUT_KEYS = &PORTC;
 
 //The rows and column pins of the keypad are organized as follows (left to right):
-// ROW2, ROW3, COL3, ROW4, COL1, ROW1, COL2
+// COL2, ROW1, COL1, ROW4, COL3, ROW3, ROW2
 
 #define ROW2 1  //Pin number for ROW2 in the keypad
 #define ROW3 2  //Pin number for ROW3 in the keypad
