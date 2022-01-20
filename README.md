@@ -6,7 +6,7 @@ This is a hobby project made to help in determining the amount of liquid availab
 ### Reasons for making this project
 In the family's home, there are 4 diesel tanks which are located behind a rather heavy and rusty garage door which requires 2 persons to open. In addition, the method used to determine how much diesel is left in these tanks is one of these two methods:
  1. By looking inside the tanks.
- 2. Using what I like to call the stick-o-meter which is simply a wooden broom stick.
+ 2. Using what I like to call the stick-o-meter which is simply a wooden broom stick. The stick-o-meter is dipped perpendicularly inside the diesel tank until it touches the bottom. The user of the stick-o-meter has to make sure not to move it around during this phase. After a few seconds, the stick-o-meter is pulled out of the tank and then placed alongside it. The user then, by vision, can have an approximate idea of how much diesel remains. This method is slighly more accurate than the first method.
 
 So the main purpose of this project is to simply:
 * Remove the need to struggle with the door just to check how much diesel there is in the tanks.
